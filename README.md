@@ -1,2 +1,2 @@
-boost-skills.com
+#boost-skills.com
 My first website

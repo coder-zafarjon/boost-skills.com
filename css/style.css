@@ -96,7 +96,6 @@ body {
 .home .max-width {
     width: 100%;
     height: 100vh;
-    margin: 0px;
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -132,9 +131,6 @@ body {
 /* RESPONSIVE MEDIA QUERY */
 
 @media (max-width: 980px){
-    .max-width {
-        padding: 0 40px;
-    }
     
     .menu-btn {
         display: block;
@@ -173,8 +169,13 @@ body {
 }
 
 @media (max-width: 690px) {
-    .home-content {
-        padding-left: 0px;
+
+    .home .max-width {
+        height: 100%
+    }
+
+    .home .home-content {
+        margin-top: 150px;
     }
 
     .home .home-content .first-text {
